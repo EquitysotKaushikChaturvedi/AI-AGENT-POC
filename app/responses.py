@@ -3,6 +3,8 @@ import json
 from typing import Dict, Any
 from app.llm_provider import generate_ai_response
 
+import random
+
 def generate_response(intent: str, context: Dict[str, Any], message: str) -> str:
     """
     Generates a context-aware response using the configured AI provider.
@@ -27,6 +29,18 @@ def generate_response(intent: str, context: Dict[str, Any], message: str) -> str
         # Safety Guard for Out-of-Scope Queries
         if intent == "unknown":
             return "I can share information related to our company, leadership, and services. Please let me know how I can help within that scope."
+
+        # Friendly Greeting Handler (Randomized)
+        if intent == "greeting":
+            greetings = [
+                "Hello! I’m here to help with information about our company and services.",
+                "Hi there. Feel free to ask about our leadership, services, or business offerings.",
+                "Welcome. I can assist with details about our company or how we support businesses.",
+                "Hello. Let me know what you’d like to learn about our organization.",
+                "Greetings. I am ready to answer your questions about our mission, team, and services.",
+                "Hi! How can I help you learn more about our business today?"
+            ]
+            return random.choice(greetings)
 
         # Special handling for leadership/founders to avoid excessive promotion
         # Now triggered directly by the granular 'leadership_info' intent

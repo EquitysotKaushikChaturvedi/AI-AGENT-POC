@@ -122,3 +122,22 @@ The application includes graceful fallback mechanisms:
 - **Persistent Memory**: Integrate Redis or a database to store conversation history for multi-turn context.
 - **Vector Search**: Replace the static JSON context with a Vector Database (e.g., Pinecone/Chroma) for querying large knowledge bases.
 - **Admin UI**: Build a frontend dashboard to edit `business_profile.json` safely.
+
+## API Gallery
+
+### 1. Complex Multi-Part Query
+The agent handles complex questions combining history, services, and leadership in one go.
+![Complex Query](assets/api_screenshot_1.png)
+
+### 2. Value Proposition
+Demonstrates the agent's ability to articulate unique selling points professionally.
+![Value Proposition](assets/api_screenshot_2.png)
+
+### 3. Leadership Inquiry
+Shows the **deterministic leadership override** in action—factual, non-promotional, and accurate.
+![Leadership Inquiry](assets/api_screenshot_3.png)
+
+### 4. Safety Guard (Unknown Intent)
+Demonstrates the fallback mechanism when specific knowledge is outside the business scope.
+![Safety Fallback](assets/api_screenshot_4.png)
+

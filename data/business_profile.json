@@ -1,0 +1,67 @@
+{
+  "company_name": "Equitysoft Technologies Pvt. Ltd.",
+  "founded_year": 2015,
+  "tagline": "Innovative Minds. Digital Excellence.",
+  "about_company": "Equitysoft Technologies is a trusted IT and software development company delivering innovative digital solutions since 2015. The company focuses on building scalable, reliable, and business-driven technology solutions for startups and enterprises.",
+  "vision": "To innovate and deliver digital solutions that empower businesses to grow and succeed in a technology-driven world.",
+  "mission": "To provide high-quality software solutions using modern technologies, strong engineering practices, and a customer-centric approach.",
+  "services": [
+    "AI & Machine Learning Solutions",
+    "Custom Software Development",
+    "Web Application Development",
+    "Mobile App Development",
+    "Automation Solutions",
+    "Data Analytics",
+    "Cloud Solutions"
+  ],
+  "target_audience": "Startups, SMEs, and Enterprises",
+  "industries_served": [
+    "Information Technology",
+    "Finance",
+    "Healthcare",
+    "E-commerce",
+    "Education"
+  ],
+  "core_values": [
+    "Innovation",
+    "Customer Centricity",
+    "Integrity",
+    "Quality Engineering",
+    "Continuous Improvement"
+  ],
+  "culture": "Creative code culture focused on innovation, collaboration, and continuous learning.",
+  "leadership": [
+    {
+      "name": "Mr. Parth Rajan",
+      "role": "Founder & Director"
+    },
+    {
+      "name": "Mr. Harshit Rupavtiya",
+      "role": "Co-Founder"
+    },
+    {
+      "name": "Mr. Mehul Rupavtiya",
+      "role": "Director"
+    }
+  ],
+  "tone": "professional",
+  "contact_info": {
+    "website": "https://equitysofttechnologies.com",
+    "email": "info@equitysofttechnologies.com",
+    "location": "India"
+  },
+  "bot_guidelines": {
+    "allowed_topics": [
+      "company services",
+      "business growth",
+      "technology solutions",
+      "general support"
+    ],
+    "restricted_topics": [
+      "pricing commitments",
+      "legal advice",
+      "internal confidential data"
+    ],
+    "response_style": "Concise, professional, business-oriented, and non-promotional"
+  }
+}
